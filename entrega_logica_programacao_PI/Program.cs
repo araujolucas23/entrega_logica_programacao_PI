@@ -160,7 +160,7 @@
                     Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
                     Console.WriteLine("|   Você zerou a sua energia, portanto ficou com sono e resolveu dormir e esperar até o próximo dia... (-_-) zzz   |");
                     Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
-                } if(acertos = 3 && life > 0){
+                } if(acertos == 3 && life > 0){
                     Console.WriteLine("-----------------------------------------------------------------------------------------");
                     Console.WriteLine("|        Você conseguiu as 3 chaves que precisava, você vai conseguir sair agora!       |");
                     Console.WriteLine("-----------------------------------------------------------------------------------------");
